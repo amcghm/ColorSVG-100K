@@ -34,6 +34,16 @@ For more details on the dataset processing, please refer to `The ColorSVG-100K D
 
 You can download the `ColorSVG-Raw` and `ColorSVG-100K` datasets from the `GitHub Releases` of this repository.
 
+You can also download them directly via the command line.
+
+```bash
+# Download ColorSVG-100K
+wget https://github.com/amcghm/ColorSVG-100K/releases/download/v1.0/ColorSVG-100K.zip
+
+# Download ColorSVG-Raw
+wget https://github.com/amcghm/ColorSVG-100K/releases/download/v1.0/ColorSVG-Raw.zip
+```
+
 # 📊 Dataset Statistics
 
 ColorSVG-100K contains:
