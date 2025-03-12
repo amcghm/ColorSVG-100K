@@ -16,7 +16,7 @@
     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-009CAB?style=for-the-badge&logo=book&logoColor=white" style="border-radius: 10px;"></a>
 </p>
 
-# 📝 Introduction
+## 📝 Introduction
 
 This is the `ColorSVG-100K` dataset proposed in the paper [SVGBuilder: Component-Based Colored SVG Generation with Text-Guided Autoregressive Transformers](https://arxiv.org/abs/2412.10488).
 
@@ -30,7 +30,7 @@ For more details on the dataset processing, please refer to `The ColorSVG-100K D
 
 ❗️ The `ColorSVG-Raw` dataset may contain duplicate SVG files, and some files may be misclassified, requiring further processing.
 
-# 📥 Download
+## 📥 Download
 
 You can download the `ColorSVG-Raw` and `ColorSVG-100K` datasets from the `GitHub Releases` of this repository.
 
@@ -44,7 +44,7 @@ wget https://github.com/amcghm/ColorSVG-100K/releases/download/v1.0/ColorSVG-100
 wget https://github.com/amcghm/ColorSVG-100K/releases/download/v1.0/ColorSVG-Raw.zip
 ```
 
-# 📊 Dataset Statistics
+## 📊 Dataset Statistics
 
 ColorSVG-100K contains:
 - 100K samples
@@ -59,13 +59,13 @@ We conduct a detailed statistical analysis of the `ColorSVG-100K` dataset. In th
 
 We also analyze the average number of paths per category in the training set to assess the complexity of different categories. This analysis, sorted in descending order and with intermediate results omitted for clarity, is presented in the right subfigure above. The category with the highest average number of paths is `basket` followed by `lion` indicating these categories have more intricate designs with numerous lines, thus higher complexity. In contrast, the categories with the fewest average paths are `arrow` and `bookmark` suggesting these SVGs are less complex.
 
-# 🎨 Dataset Examples
+## 🎨 Dataset Examples
 
 We randomly select several categories from the training set, showcasing three randomly chosen examples from each category, as illustrated in the figure below.
 
 ![Dataset Examples](assets/dataset_examples.jpg)
 
-# 📚 Citation
+## 📚 Citation
 
 If you find the dataset helpful for your research, please cite our paper:
 
@@ -78,7 +78,7 @@ If you find the dataset helpful for your research, please cite our paper:
 }
 ```
 
-# ⚖️ License
+## ⚖️ License
 
 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-009CAB?style=for-the-badge&logo=book&logoColor=white" style="border-radius: 10px;"></a>
 
